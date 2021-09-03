@@ -1,5 +1,4 @@
 import random
-import math
 
 def win_check(player,opponent):
     if((player=='r' and opponent=='s') or (player=='s' and opponent=='p') or (player=='p' and opponent=='r') ):
